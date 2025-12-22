@@ -22,34 +22,7 @@ Backend Integration
 - API Base: http://localhost:5000/api
 - Authentication: JWT Bearer tokens
 - Endpoints: RESTful API for all CRUD operations
-📁 Project Structure
-src/
-├── api/                    # API service layer
-│   ├── api.ts            # Axios configuration with interceptors
-│   └── services.ts        # API endpoints and methods
-├── components/              # Reusable UI components
-│   ├── CommonTable.tsx    # (Unused - can be removed)
-│   ├── Pegination.tsx     # Pagination component
-│   └── ProtectedRoute.tsx # Authentication wrapper
-├── contexts/              # React contexts
-│   └── AuthContext.tsx    # Authentication state management
-├── layouts/               # Page layouts
-│   ├── DashbordLayout.tsx # Main dashboard layout
-│   └── NavBar.tsx         # Navigation component
-├── pages/                 # Page components
-│   ├── Login.tsx           # Authentication page
-│   ├── Dashboard.tsx        # Dashboard overview
-│   ├── Profile.tsx          # User profile management
-│   ├── ManageUser.tsx       # User list with filtering
-│   ├── CreateUser.tsx       # User creation form
-│   ├── EditUser.tsx         # User editing form
-│   ├── Contacts.tsx         # Contact list with filtering
-│   ├── CreateContacts.tsx    # Contact creation form
-│   ├── EditContact.tsx       # Contact editing form
-│   ├── Organizations.tsx    # Organization list with filtering
-│   ├── CreateOrganization.tsx # Organization creation form
-│   └── EditOrganization.tsx # Organization editing form
-└── assets/                 # Static assets
+
 🔧 Setup Instructions
 Prerequisites
 - Node.js 18+ 
